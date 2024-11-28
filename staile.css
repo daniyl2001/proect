@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{ 
+    width: 1000px;
+    height: 600px;
+    background-color: khaki;
+    margin: 0 auto;
+    position: relative;
+}
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    animation-name:move;   
+    animation-duration:10s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+   
+}
+
+
+@keyframes move{
+    0%{
+        left: 0;
+        top: 0;
+    }
+   
+    10%{
+    left: 900px;
+    top: 500px;
+}
+    15%{
+    left: 900px;
+    top: 0;
+}
+20%{
+    left: 0px;
+    top: 500px;
+}
+25%{
+    left: 450px;
+    top: 250px;    
+}
+30%{
+    left: 0px;
+    top: 0;
+}
+40%{
+    left: 200px;
+    top: 100px;
+}
+45%{
+    left: 300px;
+    top: 150px;
+}
+50%{
+    left: 350px;
+    top: 200px;
+}
+55%{
+    left: 400px;
+    top: 250px;
+}
+60%{
+    left: 450px;
+    top: 250px;
+}
+65%{
+    left: 450px;
+    top: 200px;
+}
+70%{
+    left: 500px;
+    top: 150px;
+}
+75%{
+    left: 600px;
+    top: 100px;
+}
+
+100%{
+    left: 900px;
+    top: 0px;
+}
+}
